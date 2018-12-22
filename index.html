@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ayo ke Pasar</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto+Condensed|Thasadith" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h3> ceklis Belanja Mama </h3>
+    </nav>
+  </header>
+
+  <div class="container">
+    <p>
+      <label for="new-task">yang mau dibeli</label><input id="new-task" type="text">
+      <p>
+        <button>tambah</button>
+      </p>
+    </p>
+
+    <h3>daftar Belanja</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label>kol buat sayur</label><input type="text"><button class="edit">Edit</button><button
+          class="delete">hapus</button></li>
+      <li class="editMode"><input type="checkbox"><label>sawi buat lalapan</label><input type="text"><button
+          class="edit">Edit</button><button class="delete">hapus</button></li>
+
+    </ul>
+
+    <h3>yang terbeli termasuk ongkos</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label>naik angkot 15rb</label><input type="text"><button class="edit">Edit</button><button
+          class="delete">hapus</button></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
