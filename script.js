@@ -5,7 +5,7 @@ var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #in
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
-//Menambakan task baru
+//adding new task
 var createNewTaskElement=function(taskString){
 
 	var listItem=document.createElement("li");
@@ -139,7 +139,3 @@ for (var i=0; i<incompleteTaskHolder.children.length;i++){
 for (var i=0; i<completedTasksHolder.children.length;i++){
     bindTaskEvents(completedTasksHolder.children[i],taskIncomplete);
 }
-
-
-
-
